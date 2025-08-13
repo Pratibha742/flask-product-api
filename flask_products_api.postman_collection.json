@@ -1,0 +1,65 @@
+{
+  "info": {
+    "name": "Flask Products API",
+    "_postman_id": "b1a2f3c4-d5e6-7890-abcd-ef1234567890",
+    "description": "Postman collection for testing Flask Products API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Get All Products",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/api/v1/products",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["api", "v1", "products"]
+        }
+      }
+    },
+    {
+      "name": "Get Single Product",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/api/v1/products/1",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["api", "v1", "products", "1"]
+        }
+      }
+    },
+    {
+      "name": "Add Product",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Authorization",
+            "value": "Bearer mysecrettoken"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"Headphones\",\n    \"price\": 2000\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/api/v1/products",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["api", "v1", "products"]
+        }
+      }
+    }
+  ]
+}
