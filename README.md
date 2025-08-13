@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛒 Flask Products API
 
 A simple **Flask-based REST API** for managing products.  
@@ -80,6 +81,9 @@ pip install -r requirements.txt
 
 # 6. Run the server
 python run.py
+
+
+
 
 
 
