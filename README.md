@@ -1,34 +1,31 @@
-<<<<<<< HEAD
-# 🛒 Flask Products API
+
+🛒 Flask Products API
 
 A simple **Flask-based REST API** for managing products.  
 Supports `GET`, `POST`, and filtering products by price.
 
----
 
-## 🚀 Features
+🚀 Features
 - Get all products
 - Get single product by ID
 - Filter products by minimum price
 - Add new product (with authentication)
 
----
 
-## 📦 Tech Stack
+ 📦 Tech Stack
 - Python 3.x
 - Flask
 - Postman (API testing)
 
----
 
-## 📂 API Endpoints
+📂 API Endpoints
 
-### 1️⃣ Get all products
+1️⃣ Get all products
 ```http
 GET /api/v1/products
 # flask-product-api
 
-###2️⃣ Get single product
+2️⃣ Get single product
 ```http
 GET /api/v1/products/<id>
 
@@ -61,25 +58,25 @@ Select the file → Done ✅.
 bash
 Copy
 Edit
-# 1. Clone the repo
-git clone https://github.com/USERNAME/REPO-NAME.git
+1. Clone the repo
+git clone https://github.com/Pratibha742/flask-product-api.git
 
-# 2. Navigate into the folder
+2. Navigate into the folder
 cd REPO-NAME
 
-# 3. Create virtual environment
+3. Create virtual environment
 python -m venv .venv
 
-# 4. Activate virtual environment
-# Windows:
+4. Activate virtual environment
+Windows:
 .venv\Scripts\activate
-# Mac/Linux:
+Mac/Linux:
 source .venv/bin/activate
 
-# 5. Install dependencies
+5. Install dependencies
 pip install -r requirements.txt
 
-# 6. Run the server
+6. Run the server
 python run.py
 
 
