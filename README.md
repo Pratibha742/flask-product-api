@@ -51,7 +51,7 @@ You can directly import the Postman collection and test the API:
 
 🔹 Steps to Import in Postman:
 
-Download the .json file from the above link.
+Download the .json file from the above link.(https://github.com/Pratibha742/flask-product-api/raw/refs/heads/main/flask_products_api.postman_collection.json)
 
 Open Postman → Click Import.
 
